@@ -13,24 +13,8 @@ The project explores forecasting techniques using deep learning, offering a hand
 ## 🚀 Features
 
 - **Time Series Preprocessing**: Handling and transforming temporal datasets for model input.
-- **Training and Validation**: Includes error metric evaluations like MAE, MSE, and RMSE and R^2
+- **Training and Validation**: Includes error metric evaluations like accuracy_score and R^2
 - **Forecast Visualization**: In-notebook insights and result interpretation using tabular data.
 - **Extensible Pipeline**: Modular notebook design makes it easy to adapt for different datasets or forecasting problems.
 - **Predicted vs Actual Graphs** for temperature and humidity trends using `matplotlib` and `seaborn`.
 
----
-
-## 📉 Sample Graphs
-
-### Temperature Graph
-![Temperature Prediction](temp_prediction.png)
-
-### 📊 Humidity Graph
-![Humidity Prediction](humidity_prediction.png)
-
-## 📂 Repository Structure
-
-```bash
-📁 weather-forecasting
-├── main.ipynb            # Jupyter Notebook with complete implementation
-├── README.md             # Project description and usage guide
